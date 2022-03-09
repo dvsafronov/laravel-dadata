@@ -2,11 +2,25 @@
 
 Пакет работы с сервисом [DaData.ru]https://dadata.ru, для исправления синтаксических ошибок в информации контактных данных клиентов сайта и вывода подсказок поля форм.
 
+Форк пакета fomvasss/laravel-dadata версии 2.2.2.
+Обновлений скорее всего не будет.
+
 ## Установка
+
+Добавить в composer.json
+
+```
+  "repositories": [
+        {
+            "url": "https://github.com/dvsafronov/laravel-dadata.git",
+            "type": "git"
+        }
+    ]
+```
 
 Запустить:
 ```bash
-composer require https://github.com/dvsafronov/laravel-dadata.git
+composer require dvsafronov/laravel-dadata.git
 ```
 ---
 __Для Laravel < 5.5:__
